@@ -1,0 +1,21 @@
+{
+  "name": "processor-controller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Spatial-Studies-Lab/processor-controller.git",
+  "author": "Axis Maps",
+  "license": "MIT",
+  "dependencies": {
+    "do-wrapper": "^4.1.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^2.0.5",
+    "prettier-eslint": "^11.0.0"
+  }
+}
