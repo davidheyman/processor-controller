@@ -47,7 +47,7 @@ app.post('/:task', (req, res) => {
         name: `${project}-${task}`,
         region: 'nyc1',
         image: 'docker-18-04',
-        size: 's-8vcpu-32gb',
+        size: 's-4vcpu-8gb',
         user_data: data,
       });
       return res.sendStatus(200);
